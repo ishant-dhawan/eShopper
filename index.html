@@ -751,6 +751,9 @@
     <script src="js/main.js"></script>
 
     <script>
+        window.targetGlobalSettings = {     
+            cookieDomain: location.hostname
+        };
         //prehiding snippet for Adobe Target with asynchronous tags deployment
         ;(function(win, doc, style, timeout) {
         var STYLE_ID = 'at-body-style';
